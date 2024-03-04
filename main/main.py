@@ -34,6 +34,7 @@ elif dadoselecionado == '2':
     dado_aluno =  X_media.head(10)
     print(dado_aluno)
     dado_aluno.to_excel('main/resultado.xlsx', index=False)
+
 elif dadoselecionado == '3':
     print('Os 10 melhores alunos por disciplina')
     materia = input('Escolha a matéria desejada (com letras minúsculas): ')
@@ -43,6 +44,7 @@ elif dadoselecionado == '3':
         dado_aluno = X_media.head(10)
         print(dado_aluno)
         dado_aluno.to_excel('main/resultado.xlsx', index=False)
+
 elif dadoselecionado == '4':
     print('Os 10 piores alunos por disciplina')
     materia = input('Escolha a matéria desejada: ')
@@ -52,7 +54,8 @@ elif dadoselecionado == '4':
         X_media = X.sort_values(by=materia, ascending=True)
         dado_aluno = X_media.head(10)
         print(dado_aluno)
-        dado_aluno.to_excel('main/resultado.xlsx', index=False)
+        dado_aluno.to_excel('main/resultado.xlsx', index=False
+
 elif dadoselecionado == '5':
     print('Dados do aluno.')
     aluno = input('Insira o nome do Aluno: ')
@@ -60,5 +63,6 @@ elif dadoselecionado == '5':
     dado_aluno = data.query('nome == @aluno')
     print(dado_aluno)
     dado_aluno.to_excel('main/resultado.xlsx', index=False)
+
 else:
     print("Opção inválida")
