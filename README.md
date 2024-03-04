@@ -6,10 +6,10 @@ Este repositório contém um script principal (main.py) que analisa dados de alu
 
 Python 3.x
 
-Bibliotecas: openpyxl e pandas
+Bibliotecas: pandas
 
 # Para instalar as dependências, execute:
-pip install openpyxl pandas
+pip install pandas
 
 # Dados de Entrada 
 ## O script espera que os dados de entrada estejam no formato de um arquivo Excel com as seguintes colunas:
