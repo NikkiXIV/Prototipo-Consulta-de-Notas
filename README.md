@@ -1,16 +1,18 @@
-Análise de Dados de Alunos com Python e Pandas
+# Análise de Dados de Alunos com Python e Pandas
 
 Este repositório contém um script principal (main.py) que analisa dados de alunos usando a biblioteca Pandas. O script lê um arquivo Excel contendo informações sobre os alunos, realiza cálculos e gera insights sobre o desempenho de cada aluno em diferentes disciplinas.
 
-Pré-requisitos:
+# Pré-requisitos:
+
 Python 3.x
+
 Bibliotecas: openpyxl e pandas
 
-Para instalar as dependências, execute:
+# Para instalar as dependências, execute:
 pip install openpyxl pandas
 
-Dados de Entrada
-O script espera que os dados de entrada estejam no formato de um arquivo Excel com as seguintes colunas:
+ Dados de Entrada 
+ O script espera que os dados de entrada estejam no formato de um arquivo Excel com as seguintes colunas:
 
 id
 nome
@@ -26,7 +28,7 @@ artes
 ingles
 media
 
-Um exemplo do arquivo Excel pode ser encontrado em:
+# Um exemplo do arquivo Excel pode ser encontrado em:
 alunos.xlsx
 
 Como executar o script:
